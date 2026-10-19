@@ -1,0 +1,78 @@
+
+:root {
+  font-family: 'Manrope', sans-serif;
+  color: #f2f3ed;
+  background: #080907;
+  font-synthesis: none;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+html {
+  margin: 0;
+  min-width: 320px;
+  scroll-behavior: smooth;
+  scroll-padding-top: 90px;
+}
+
+body {
+  margin: 0;
+  min-width: 320px;
+  min-height: 100vh;
+  background: #080907;
+}
+
+#root {
+  width: 100%;
+  min-height: 100vh;
+}
+
+button,
+input,
+textarea,
+select {
+  font: inherit;
+}
+
+button,
+a {
+  -webkit-tap-highlight-color: transparent;
+}
+
+a {
+  color: inherit;
+  text-decoration: none;
+}
+
+img,
+svg {
+  display: block;
+}
+
+button:focus-visible,
+a:focus-visible {
+  outline: 2px solid #c2ff45;
+  outline-offset: 4px;
+}
+
+::selection {
+  color: #080907;
+  background: #c2ff45;
+}
+
+@media (max-width: 720px) {
+  html {
+    scroll-padding-top: 75px;
+  }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  html {
+    scroll-behavior: auto;
+  }
+}
